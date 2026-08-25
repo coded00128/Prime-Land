@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PrimeLand | Find Your Dream Property</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="vendor/bootstrap/bootstrap-icons-1.13.1/bootstrap-icons.css">
+    <link rel="stylesheet" href="realestate.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top primeland-navbar">
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+            <img src="assets/images/logo.png" alt="PrimeLand Logo" class="brand-logo">
+
+            <div>
+                <span class="brand-title">PrimeLand</span>
+                <small>Your Dream, Our Priority</small>
+            </div>
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Properties</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="agents.html">Agents</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="navbar-contact">
+                <a href="tel:+2349161330967" class="phone-link">
+                    <i class="bi bi-telephone"></i>
+                    +234 916 133 0967
+                </a>
+
+                <a href="contact-us.html"
+                   class="btn btn-warning gold-btn">
+                    Get in touch
+                </a>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <span class="hero-tag">
+                    <i class="bi bi-buildings"></i>
+                    PREMIUM REAL ESTATE
+                </span>
+
+                <h1>
+                    Find Your
+                    <span>Dream Property</span>
+                </h1>
+
+                <p class="hero-text">
+                    We help you find the perfect home, office or
+                    investment property in the best locations.
+                </p>
+
+                <!-- FEATURES -->
+                <div class="hero-features">
+
+                    <div>
+                        <i class="bi bi-person-check"></i>
+                        <span>
+                            <strong>Trusted</strong>
+                            Realtors
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="bi bi-geo-alt"></i>
+                        <span>
+                            <strong>Prime</strong>
+                            Locations
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="bi bi-tag"></i>
+                        <span>
+                            <strong>Best</strong>
+                            Deals
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROPERTY SEARCH -->
+        <div class="property-search">
+
+            <div class="search-heading">
+                <div>
+                    <span>PROPERTY SEARCH</span>
+                    <h4>What are you looking for?</h4>
+                </div>
+
+                <i class="bi bi-search"></i>
+            </div>
+
+            <form>
+
+                <div class="row g-3">
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <label>
+                            Property Type
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text">
+                                <i class="bi bi-house"></i>
+                            </span>
+
+                            <select class="form-select">
+
+                                <option selected>
+                                    All Property Types
+                                </option>
+
+                                <optgroup label="Residential">
+                                    <option>Detached House</option>
+                                    <option>Semi-detached House</option>
+                                    <option>Terrace</option>
+                                    <option>Duplex</option>
+                                    <option>Bungalow</option>
+                                    <option>Villa</option>
+                                    <option>Apartment</option>
+                                    <option>Penthouse</option>
+                                </optgroup>
+
+                                <optgroup label="Commercial">
+                                    <option>Office</option>
+                                    <option>Shop</option>
+                                    <option>Commercial Building</option>
+                                    <option>Hotel</option>
+                                    <option>Warehouse</option>
+                                </optgroup>
+
+                                <optgroup label="Land">
+                                    <option>Residential Land</option>
+                                    <option>Commercial Land</option>
+                                    <option>Agricultural Land</option>
+                                    <option>Industrial Land</option>
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <label>
+                            Location
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text">
+                                <i class="bi bi-geo-alt"></i>
+                            </span>
+
+                            <select class="form-select">
+
+                                <option selected>
+                                    All Locations
+                                </option>
+
+                                <optgroup label="Lagos">
+                                    <option>Lekki</option>
+                                    <option>Ikoyi</option>
+                                    <option>Victoria Island</option>
+                                    <option>Ikeja</option>
+                                    <option>Ajah</option>
+                                    <option>Yaba</option>
+                                </optgroup>
+
+                                <optgroup label="Abuja">
+                                    <option>Maitama</option>
+                                    <option>Wuse</option>
+                                    <option>Gwarinpa</option>
+                                    <option>Asokoro</option>
+                                </optgroup>
+
+                                <optgroup label="Other Locations">
+                                    <option>Ibadan</option>
+                                    <option>Ilorin</option>
+                                    <option>Port Harcourt</option>
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-6">
+
+                        <label>
+                            Price Range
+                        </label>
+
+                        <select class="form-select">
+
+                            <option selected>Any Price</option>
+                            <option>Under ₦20M</option>
+                            <option>₦20M - ₦50M</option>
+                            <option>₦50M - ₦100M</option>
+                            <option>₦100M - ₦250M</option>
+                            <option>₦250M+</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-6 d-flex align-items-end">
+
+                        <button type="submit"
+                                class="btn btn-warning search-btn w-100">
+
+                            <i class="bi bi-search"></i>
+                            Search
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= FEATURED PROPERTIES ================= -->
+<section class="section-padding">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">
+                    OUR PROPERTIES
+                </span>
+
+                <h2>
+                    Featured Properties
+                </h2>
+            </div>
+
+            <a href="services.html" class="view-all">
+                View All Properties
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- PROPERTY 1 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="property-card">
+
+                    <div class="property-image">
+
+                        <img src="assets/images/property1.jpg"
+                             alt="Luxury Property">
+
+                        <span class="property-badge">
+                            FOR SALE
+                        </span>
+
+                        <button class="favorite">
+                            <i class="bi bi-heart"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="property-body">
+
+                        <span class="property-type">
+                            Luxury Duplex
+                        </span>
+
+                        <h4>Modern 5 Bedroom Duplex</h4>
+
+                        <p>
+                            <i class="bi bi-geo-alt"></i>
+                            Lekki Phase 1, Lagos
+                        </p>
+
+                        <div class="property-details">
+
+                            <span>
+                                <i class="bi bi-door-open"></i>
+                                5 Beds
+                            </span>
+
+                            <span>
+                                <i class="bi bi-droplet"></i>
+                                6 Baths
+                            </span>
+
+                            <span>
+                                <i class="bi bi-aspect-ratio"></i>
+                                450 sqm
+                            </span>
+
+                        </div>
+
+                        <div class="property-bottom">
+
+                            <strong>₦185,000,000</strong>
+
+                            <a href="property-details.html"
+                               class="property-btn">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROPERTY 2 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="property-card">
+
+                    <div class="property-image">
+
+                        <img src="assets/images/property2.jpg"
+                             alt="Luxury Apartment">
+
+                        <span class="property-badge">
+                            FOR SALE
+                        </span>
+
+                        <button class="favorite">
+                            <i class="bi bi-heart"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="property-body">
+
+                        <span class="property-type">
+                            Apartment
+                        </span>
+
+                        <h4>Contemporary 3 Bedroom Apartment</h4>
+
+                        <p>
+                            <i class="bi bi-geo-alt"></i>
+                            Ikoyi, Lagos
+                        </p>
+
+                        <div class="property-details">
+
+                            <span>
+                                <i class="bi bi-door-open"></i>
+                                3 Beds
+                            </span>
+
+                            <span>
+                                <i class="bi bi-droplet"></i>
+                                4 Baths
+                            </span>
+
+                            <span>
+                                <i class="bi bi-aspect-ratio"></i>
+                                280 sqm
+                            </span>
+
+                        </div>
+
+                        <div class="property-bottom">
+
+                            <strong>₦120,000,000</strong>
+
+                            <a href="property-details.html"
+                               class="property-btn">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROPERTY 3 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="property-card">
+
+                    <div class="property-image">
+
+                        <img src="assets/images/property3.jpg"
+                             alt="Modern Villa">
+
+                        <span class="property-badge">
+                            FOR RENT
+                        </span>
+
+                        <button class="favorite">
+                            <i class="bi bi-heart"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="property-body">
+
+                        <span class="property-type">
+                            Villa
+                        </span>
+
+                        <h4>Elegant 4 Bedroom Villa</h4>
+
+                        <p>
+                            <i class="bi bi-geo-alt"></i>
+                            Ikeja GRA, Lagos
+                        </p>
+
+                        <div class="property-details">
+
+                            <span>
+                                <i class="bi bi-door-open"></i>
+                                4 Beds
+                            </span>
+
+                            <span>
+                                <i class="bi bi-droplet"></i>
+                                5 Baths
+                            </span>
+
+                            <span>
+                                <i class="bi bi-aspect-ratio"></i>
+                                390 sqm
+                            </span>
+
+                        </div>
+
+                        <div class="property-bottom">
+
+                            <strong>₦8,500,000/yr</strong>
+
+                            <a href="property-details.html"
+                               class="property-btn">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+<section class="categories-section">
+
+    <div class="container">
+
+        <div class="text-center section-heading-center">
+
+            <span class="section-label">
+                EXPLORE
+            </span>
+
+            <h2>
+                Find A Property That Fits Your Lifestyle
+            </h2>
+
+            <p>
+                From beautiful homes to strategic investments,
+                explore properties designed around your needs.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <a href="services.html" class="category-card">
+
+                    <div class="category-icon">
+                        <i class="bi bi-house-heart"></i>
+                    </div>
+
+                    <h4>Residential</h4>
+
+                    <p>
+                        Homes, apartments, villas and duplexes.
+                    </p>
+
+                    <span>
+                        Explore
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <a href="services.html" class="category-card">
+
+                    <div class="category-icon">
+                        <i class="bi bi-building"></i>
+                    </div>
+
+                    <h4>Commercial</h4>
+
+                    <p>
+                        Offices, shops and commercial buildings.
+                    </p>
+
+                    <span>
+                        Explore
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <a href="services.html" class="category-card">
+
+                    <div class="category-icon">
+                        <i class="bi bi-map"></i>
+                    </div>
+
+                    <h4>Land</h4>
+
+                    <p>
+                        Strategic land for your next investment.
+                    </p>
+
+                    <span>
+                        Explore
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <a href="services.html" class="category-card">
+
+                    <div class="category-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+
+                    <h4>Luxury</h4>
+
+                    <p>
+                        Exclusive properties for exceptional living.
+                    </p>
+
+                    <span>
+                        Explore
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+<section class="why-section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <div class="why-image">
+
+                    <img src="assets/images/primeland.jpeg"
+                         alt="PrimeLand property">
+
+                    <div class="experience-box">
+
+                        <strong>10+</strong>
+                        <span>
+                            Years of
+                            Experience
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <span class="section-label">
+                    WHY PRIMELAND
+                </span>
+
+                <h2>
+                    More Than Just Property.
+                    <span>It's Your Future.</span>
+                </h2>
+
+                <p class="large-text">
+                    At PrimeLand, we make finding property simple,
+                    transparent and stress-free. Our team connects
+                    you with carefully selected properties in
+                    locations that matter.
+                </p>
+
+
+                <div class="why-list">
+
+                    <div class="why-item">
+
+                        <i class="bi bi-shield-check"></i>
+
+                        <div>
+                            <h5>Trusted Professionals</h5>
+                            <p>
+                                Experienced real estate professionals
+                                working with your best interest in mind.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="why-item">
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <div>
+                            <h5>Prime Locations</h5>
+                            <p>
+                                Access properties in some of the
+                                most desirable locations.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="why-item">
+
+                        <i class="bi bi-graph-up-arrow"></i>
+
+                        <div>
+                            <h5>Smart Investments</h5>
+                            <p>
+                                Property opportunities selected with
+                                long-term value in mind.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a href="about-us.html"
+                   class="btn btn-warning gold-btn">
+                    Learn More About Us
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <div>
+
+                <span>
+                    READY TO FIND YOUR NEXT PROPERTY?
+                </span>
+
+                <h2>
+                    Your Dream Property
+                    Is Closer Than You Think.
+                </h2>
+
+            </div>
+
+            <a href="services.html"
+               class="btn btn-warning gold-btn">
+                Explore Properties
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <div class="col-lg-4">
+
+                <div class="footer-brand">
+
+                    <img src="assets/images/logo.png"
+                         alt="PrimeLand Logo">
+
+                    <div>
+                        <h4>PrimeLand</h4>
+                        <small>Your Dream, Our Priority</small>
+                    </div>
+
+                </div>
+
+                <p>
+                    Helping you discover exceptional properties,
+                    secure smart investments and find places
+                    worth calling home.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-2 col-md-4">
+
+                <h5>Company</h5>
+
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="agents.html">Our Agents</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-lg-2 col-md-4">
+
+                <h5>Properties</h5>
+
+                <ul>
+                    <li><a href="services.html">Residential</a></li>
+                    <li><a href="services.html">Commercial</a></li>
+                    <li><a href="services.html">Land</a></li>
+                    <li><a href="services.html">Luxury</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-lg-4">
+
+                <h5>Contact Us</h5>
+
+                <ul class="contact-list">
+
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        +234 916 133 0967
+                    </li>
+
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        info@primeland.com
+                    </li>
+
+                    <li>
+                        <i class="bi bi-geo-alt"></i>
+                        Lagos, Nigeria
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 PrimeLand. All Rights Reserved.
+            </span>
+
+            <span>
+                Your Dream, Our Priority.
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
